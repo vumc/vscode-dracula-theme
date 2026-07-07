@@ -9,6 +9,9 @@ bin/
 *.class
 *.jar
 *.war
+*.vsix
+__pycache__/
+*.pyc
 
 # IDE — Eclipse
 .settings/

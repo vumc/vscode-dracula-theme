@@ -182,6 +182,7 @@
     "editorWarning.foreground": "#984f00",
     "editorInfo.foreground": "#0067a1",
     "editorHint.foreground": "#635D97",
+    "editorGhostText.foreground": "#575757",
 
     "diffEditor.insertedTextBackground": "#5b9c5422",
     "diffEditor.removedTextBackground": "#db756a22",
@@ -382,11 +383,11 @@
       "settings": { "foreground": "#846E15" }
     },
     {
-      "scope": ["constant.character.escape", "string.escape"],
+      "scope": "constant.character.escape",
       "settings": { "foreground": "#A3144D" }
     },
     {
-      "scope": ["string.regexp", "string.regex"],
+      "scope": "string.regexp",
       "settings": { "foreground": "#CB3A2A" }
     },
     {

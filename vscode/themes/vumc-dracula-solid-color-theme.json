@@ -8,7 +8,7 @@
     "descriptionForeground": "#a186c7",
     "errorForeground": "#e67373",
     "focusBorder": "#C9A8F9",
-    "selection.background": "#bd93f966",
+    "selection.background": "#bd93f933",
     "widget.shadow": "#00000088",
     "widget.border": "#3c324b",
 
@@ -126,7 +126,7 @@
     "editorCursor.foreground": "#bd93f9",
     "editorCursor.background": "#282a36",
 
-    "editor.selectionBackground": "#bd93f966",
+    "editor.selectionBackground": "#bd93f933",
     "editor.selectionHighlightBackground": "#44475a99",
     "editor.inactiveSelectionBackground": "#44475a99",
     "editor.wordHighlightBackground": "#504364",
@@ -182,6 +182,7 @@
     "editorWarning.foreground": "#e6e373",
     "editorInfo.foreground": "#73ece5",
     "editorHint.foreground": "#6272a4",
+    "editorGhostText.foreground": "#c6c6c2",
 
     "diffEditor.insertedTextBackground": "#73fb9522",
     "diffEditor.removedTextBackground": "#ff555533",
@@ -382,11 +383,11 @@
       "settings": { "foreground": "#f1fa8c" }
     },
     {
-      "scope": ["constant.character.escape", "string.escape"],
+      "scope": "constant.character.escape",
       "settings": { "foreground": "#ff79c6" }
     },
     {
-      "scope": ["string.regexp", "string.regex"],
+      "scope": "string.regexp",
       "settings": { "foreground": "#ff5555" }
     },
     {

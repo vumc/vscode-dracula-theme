@@ -18,11 +18,11 @@ Ships three flavors:
 
 ```sh
 git clone https://github.com/vumc/vscode-dracula-theme.git
-cd dracula/vscode
+cd vscode-dracula-theme/ 
 # package + install locally
 npm install -g @vscode/vsce
 vsce package
-code --install-extension theme-dracula-*.vsix
+code --install-extension vumc-vscode-dracula-theme-*.vsix
 ```
 
 ## What's mapped
