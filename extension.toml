@@ -1,6 +1,0 @@
-id = "vumc-vscode-dracula"
-name = "VumC Dracula"
-version = "1.0"
-authors = ["VumC"]
-description = "Dracula theme for VSCode"
-repository = "https://github.com/vumc/vscode-dracula-theme.git"
