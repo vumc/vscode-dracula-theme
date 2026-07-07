@@ -1,7 +1,6 @@
-id = "dracula"
-name = "Dracula"
-version = "1.1.2"
-schema_version = 1
-authors = ["Ben Hamment <fisix1@gmail.com>"]
-description = "Official Dracula theme for Zed"
-repository = "https://github.com/dracula/zed"
+id = "vumc-vscode-dracula"
+name = "VumC Dracula"
+version = "1.0"
+authors = ["VumC"]
+description = "Dracula theme for VSCode"
+repository = "https://github.com/vumc/vscode-dracula-theme.git"

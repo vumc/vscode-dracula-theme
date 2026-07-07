@@ -1,2 +1,31 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings to LF in the repo. Git will convert on checkout
+# for Windows users with core.autocrlf=true; the repo itself stays LF-clean.
+* text=auto eol=lf
+
+# Explicit text formats (defensive — covers files git doesn't auto-detect)
+*.xml        text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf
+*.json       text eol=lf
+*.jsonc      text eol=lf
+*.md         text eol=lf
+*.st         text eol=lf
+*.properties text eol=lf
+*.sh         text eol=lf
+*.ps1        text eol=lf
+
+# Windows-only scripts — must keep CRLF or cmd.exe breaks
+*.bat        text eol=crlf
+*.cmd        text eol=crlf
+
+# Binary — never touch
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.ico        binary
+*.pdf        binary
+*.jar        binary
+*.zip        binary
+*.gz         binary
+*.class      binary

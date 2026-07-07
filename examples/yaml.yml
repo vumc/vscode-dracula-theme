@@ -1,0 +1,13 @@
+# Once upon a time...
+vampire: &vampire
+  location: Transylvania
+  birthDate: 1428
+  deathDate: 1476
+  weaknesses:
+    - Sunlight
+    - Garlic
+
+# ...there was a guy named Vlad
+dracula:
+  <<: *vampire
+  name: Dracula

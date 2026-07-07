@@ -1,0 +1,53 @@
+{
+  "name": "vumc-zed-dracula-theme",
+  "displayName": "VumC Zed Dracula",
+  "description": "VumC port of the Zed Dracula theme to VSCode. Includes Dracula, Dracula Solid, and Dracula Light (Alucard).",
+  "version": "1.1.1",
+  "publisher": "vumc",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "galleryBanner": {
+    "color": "#282A36",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dracula/zed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dracula/zed/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dracula",
+    "theme",
+    "dark",
+    "light",
+    "alucard",
+    "vumc",
+    "zed"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VumC Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-color-theme.json"
+      },
+      {
+        "label": "VumC Dracula Solid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-solid-color-theme.json"
+      },
+      {
+        "label": "VumC Dracula Light (Alucard)",
+        "uiTheme": "vs",
+        "path": "./themes/dracula-light-color-theme.json"
+      }
+    ]
+  }
+}

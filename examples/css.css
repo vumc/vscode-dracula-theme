@@ -1,0 +1,27 @@
+/**
+ * Once upon a time...
+ */
+.vampire {
+  --location: "Transylvania";
+  --birth-date: 1428;
+  --death-date: 1476;
+
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: #f8f8f2;
+  background-color: #282a36;
+  border: 1px solid #6272a4;
+  border-radius: 4px;
+}
+
+/* ...there was a guy named Vlad */
+.vampire__weaknesses {
+  list-style: none;
+  font-weight: bold;
+}
+
+.vampire__weaknesses > li::before {
+  content: "\2020  ";
+  color: #ff5555;
+}
